@@ -230,12 +230,12 @@ form input {
 
 .signup-btn {
     width: 100%;
-    padding: 16px;
+    padding: 12px;
     background: #3172f5;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 1px;
     cursor: pointer;
     font-size: 16px;
 }
