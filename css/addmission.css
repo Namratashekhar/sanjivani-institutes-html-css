@@ -4,3 +4,18 @@ body {
     font-family: Arial, sans-serif;
      background-color:#faf8d7;
 }
+
+.navbar-main-container {
+    width: 100%;
+    background:#192546;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;    
+    top: 0;              
+    left: 0;             
+    width: 100%;
+    z-index: 999;  
+}
