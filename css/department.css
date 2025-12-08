@@ -373,3 +373,25 @@ nav {
     .footer-section-4 {
         width: 100%;
     }
+    
+    .menu-item {
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .left-card,
+    .card {
+        width: 95%;
+        height: auto;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+    }
+}
