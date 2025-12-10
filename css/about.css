@@ -233,26 +233,38 @@
 }
 
 
-@media (max-width: 768px) {
-    .navbar-main-container {
-        flex-direction: column;
-        gap: 15px;
+/* ===============================
+   RESPONSIVE MEDIA QUERIES
+================================ */
+
+/* Large Tablets */
+@media (max-width: 1024px) {
+    section {
+        padding: 40px 15px;
     }
 
+    header.about-header h1 {
+        font-size: 2.2rem;
+    }
+
+    header.about-header p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Tablets */
 @media (max-width: 900px) {
 
     .navbar-main-container {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         gap: 15px;
         padding: 15px 10px;
-        height: auto;
     }
 
     nav {
         flex-direction: column;
-        gap: 15px;  
+        gap: 15px;
         width: 100%;
         align-items: center;
     }
@@ -260,40 +272,26 @@
     .nav-links-container,
     .auth-links-container {
         flex-direction: column;
-        gap: 8px;
-        width: 100%;
         align-items: center;
-    }
-
-    .menu-item {
-        font-size: 17px;
-        text-align: center;
-        width: 100%;
-        display: block;
-    }
-
-    .logo-container {
-        justify-content: center;
-    }
-}
-
-    nav {
-        flex-direction: column;
         gap: 10px;
     }
 
-    .main-subheading {
-        flex-direction: column;
-        align-items: center;
+    .menu-item {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
     }
 
-    .card {
-        width: 90%;
+    #vision-mission {
+        flex-direction: column;
     }
 
     .footer-container {
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+        text-align: center;
     }
 
     .footer-section-1,
@@ -301,15 +299,58 @@
     .footer-section-3,
     .footer-section-4 {
         width: 100%;
+        max-width: 400px;
+        align-items: center;
     }
 }
-.social-icon {
-    height: 38px;
-    width: 38px;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    position: relative;
-    z-index: 10;
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+
+    header.about-header {
+        padding: 40px 10px;
+    }
+
+    header.about-header h1 {
+        font-size: 1.8rem;
+    }
+
+    header.about-header p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 30px 10px;
+    }
+
+    #vision-mission .card {
+        padding: 20px;
+    }
+
+    #principal-message img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Small Mobiles */
+@media (max-width: 480px) {
+
+    header.about-header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #achievements .achievement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .social-icon {
+        height: 32px;
+        width: 32px;
+        padding: 8px;
+    }
 }
