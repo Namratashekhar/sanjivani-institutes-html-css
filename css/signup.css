@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #6c88d6;
+    background-color:#d9e8f3;;
 
 }
 
@@ -15,7 +15,6 @@ body {
     justify-content: space-around;
     position: sticky;
     top: 0;
-
 }
 
 
@@ -290,7 +289,6 @@ form input {
     padding: 20px;
     background-color: #333;
     color: white;
-
 }
 
 .footer-section-1 {
@@ -346,42 +344,15 @@ form input {
 
 .menu-subitem {
     text-decoration: none;
-    color: white;
+    color:white;
 }
 
 
-@media (max-width: 768px) {
-    .navbar-main-container {
-        flex-direction: column;
-        gap: 15px;
-    }
 
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
 
-    .main-subheading {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .card {
-        width: 90%;
-    }
+   
 
-    .footer-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .footer-section-1,
-    .footer-section-2,
-    .footer-section-3,
-    .footer-section-4 {
-        width: 100%;
-    }
-}
 
 /*992px*/
 

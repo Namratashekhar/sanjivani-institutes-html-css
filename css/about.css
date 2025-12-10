@@ -7,35 +7,13 @@
 
     body {
       line-height: 1.6;
-<<<<<<< HEAD
-       background-color:#cce1ef;
-=======
-<<<<<<< HEAD
-      background-color:#f4f7f9;
-=======
-       background-color:#6c88d6;
->>>>>>> 26a5ae40a0b78f26258e964ef994520227e24422
->>>>>>> d7005b4176b9223755ffe2fea46fa397957f5f45
+      background-color:#d9e8f3;
       color: #333;
     }
-    .navbar-main-container {
-    width: 100%;
-    background:#192546;
-    padding: 12px 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    position: fixed;    
-    top: 0;              
-    left: 0;             
-    width: 100%;
-    z-index: 999;  
-}
 
     header.about-header {
-      background-color:#faf8d7;
-      color:black;
+      background: linear-gradient(to right, #4a90e2, #50e3c2);
+      color: white;
       text-align: center;
       padding: 60px 20px;
     }
@@ -94,7 +72,7 @@
       padding-left: 20px;
     }
 
-    #history ul::before {
+    #history ul:: {
       content: '';
       position: absolute;
       left: 10px;
@@ -114,8 +92,8 @@
       box-shadow: 0 6px 12px rgba(0,0,0,0.05); 
     }
 
-    #history li::before {
-      content: '';
+    #history li:: {
+      
       position: absolute;
       left: -18px;
       top: 25px;
@@ -196,15 +174,12 @@
     position: relative;
     z-index: 10;
 }
- 
-
-
-/* FOOTER */
-.footer-container {
+ .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     align-items: center;
-    padding: 20px;
+    padding: 8px;
     background-color: #333;
     color: white;
 }
@@ -213,43 +188,35 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 900px;
+    flex-basis: 350px;
 }
 
 .footer-section-2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 700px;
+    flex-grow: 1;
+    
 }
 
 .footer-section-3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 700px;
+     flex-grow: 1;
 }
 
 .footer-section-4 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 700px;
+     flex-grow: 1;
 }
 
 .social-icon-container {
     display: flex;
     gap: 15px;
     margin-top: 10px;
-}
-
-.social-icon {
-    height: 20px;
-    width: 20px;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
 }
 
 .contact-item {
@@ -262,10 +229,8 @@
 
 .menu-subitem {
     text-decoration: none;
-    color: white;
+    color:white;
 }
-
-
 
 
 @media (max-width: 768px) {
