@@ -216,123 +216,42 @@ form button:hover {
     text-decoration: none;
     color: white;
 }
-/* ================== RESPONSIVE DESIGN ================== */
+/* -------------------- NAVBAR RESPONSIVE -------------------- */
 
-/* Large tablets & small laptops */
-@media (max-width: 1024px) {
-  nav {
-    gap: 80px;
-  }
+@media (max-width: 900px) {
 
-  .contact-container {
-    flex-direction: column;
-    width: 95%;
-    padding: 40px 20px;
-  }
+    .navbar-main-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px 10px;
+        height: auto;
+    }
 
-  .form-section,
-  .image-section {
-    width: 100%;
-    text-align: center;
-  }
+    nav {
+        flex-direction: column;
+        gap: 15px;     /* Fixed huge gap issue */
+        width: 100%;
+        align-items: center;
+    }
 
-  .image-section img {
-    max-width: 280px;
-    margin: auto;
-  }
+    .nav-links-container,
+    .auth-links-container {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        align-items: center;
+    }
 
-  .left-card {
-    width: 100%;
-    height: auto;
-  }
+    .menu-item {
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
 }
-
-/* Tablets */
-@media (max-width: 768px) {
-  .navbar-main-container {
-    flex-direction: column;
-    padding: 15px 10px;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .nav-links-container,
-  .auth-links-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu-item {
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .main-logo {
-    width: 40px;
-    height: 40px;
-  }
-
-  .project-name {
-    font-size: 16px;
-  }
-
-  .right-img {
-    width: 100%;
-    height: auto;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .footer-section-1,
-  .footer-section-2,
-  .footer-section-3,
-  .footer-section-4 {
-    width: 100%;
-  }
-
-  .social-icon-container {
-    justify-content: center;
-  }
-}
-
-/* Mobile devices */
-@media (max-width: 480px) {
-  .contact-container {
-    padding: 20px 15px;
-  }
-
-  .form-section h2 {
-    font-size: 20px;
-  }
-
-  form input,
-  form textarea {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  form button {
-    font-size: 16px;
-  }
-
-  .image-section img {
-    max-width: 200px;
-  }
-
-  nav {
-    gap: 10px;
-  }
-}
-
-
-
-
-       
