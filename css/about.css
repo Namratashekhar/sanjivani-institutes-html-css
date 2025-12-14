@@ -54,7 +54,7 @@ h2 {
 }
 
 #vision-mission .card {
-  background: white;
+   background-color:#faf8d7;
   flex: 1 1 300px;
   padding: 30px;
   border-radius: 10px;
@@ -89,7 +89,7 @@ h2 {
   position: relative;
   padding: 20px;
   margin-bottom: 20px;
-  background: white;
+  background-color:#faf8d7;
   border-radius: 8px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.05);
 }
@@ -109,7 +109,7 @@ h2 {
 /* ---------------- PRINCIPAL MESSAGE ---------------- */
 
 #principal-message .principal-card {
-  background: white;
+  background-color:#faf8d7;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -144,7 +144,7 @@ h2 {
 }
 
 #achievements .achievement-card {
-  background: white;
+  background-color:#faf8d7;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -156,9 +156,15 @@ h2 {
   background: #f0f8ff;
 }
 
+
+.social-img {
+    height: 50px;
+    width: 40px;
+}
+
 @media (max-width: 768px) {
 
-  /* ===== HEADER ===== */
+ 
   header.about-header {
     padding: 40px 15px;
   }
@@ -171,7 +177,6 @@ h2 {
     font-size: 1rem;
   }
 
-  /* ===== SECTIONS ===== */
   section {
     padding: 40px 15px;
   }
@@ -180,7 +185,7 @@ h2 {
     font-size: 1.6rem;
   }
 
-  /* ===== NAVBAR ===== */
+  
   .navbar-main-container {
     flex-direction: column;
     align-items: center;
@@ -208,7 +213,7 @@ h2 {
     font-size: 15px;
   }
 
-  /* ===== VISION & MISSION ===== */
+  
   #vision-mission {
     flex-direction: column;
     align-items: center;
@@ -219,7 +224,7 @@ h2 {
     padding: 20px;
   }
 
-  /* ===== HISTORY TIMELINE ===== */
+  
   #history ul {
     padding-left: 20px;
   }
@@ -239,7 +244,7 @@ h2 {
     height: 10px;
   }
 
-  /* ===== PRINCIPAL CARD ===== */
+
   #principal-message .principal-card {
     padding: 20px;
   }
@@ -249,7 +254,7 @@ h2 {
     height: 80px;
   }
 
-  /* ===== ACHIEVEMENTS GRID ===== */
+  
   #achievements .achievement-grid {
     grid-template-columns: 1fr;
     gap: 15px;
@@ -259,7 +264,7 @@ h2 {
     padding: 20px;
   }
 
-  /* ===== FOOTER ===== */
+  
   .footer-container {
     flex-direction: column;
     align-items: center;
